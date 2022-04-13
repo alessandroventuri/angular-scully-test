@@ -9,6 +9,9 @@ const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'first', component: FirstPageComponent },
   { path: 'second', component: SecondPageComponent },
+
+  // Redirect to home page if path doesn't exist
+  { path: '**', pathMatch: 'full', redirectTo: '/' },
 ];
 
 @NgModule({
