@@ -4,8 +4,8 @@ import { Component } from '@angular/core';
   template: `
     <h1>Homepage</h1>
     <p>
-      <a hfref="/first">First Page</a>
-      <a hfref="/second">Second Page</a>
+      <a href="/first">First Page</a>
+      <a href="/second">Second Page</a>
     </p>
   `,
 })
